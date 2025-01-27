@@ -7,9 +7,10 @@ import (
 	"path"
 	"strings"
 	"time"
-	"ubvremux/demux"
-	"ubvremux/ffmpegutil"
-	"ubvremux/ubv"
+
+	"github.com/asjoyner/ubvremux/demux"
+	"github.com/asjoyner/ubvremux/ffmpegutil"
+	"github.com/asjoyner/ubvremux/ubv"
 )
 
 // Set at build time (see Makefile) with release tag (for release versions)

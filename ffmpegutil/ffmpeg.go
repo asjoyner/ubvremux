@@ -5,7 +5,8 @@ import (
 	"os"
 	"os/exec"
 	"strconv"
-	"ubvremux/ubv"
+
+	"github.com/asjoyner/ubvremux/ubv"
 )
 
 func MuxVideoOnly(partition *ubv.UbvPartition, h264File string, videoTrackNum int, mp4File string) {

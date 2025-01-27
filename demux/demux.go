@@ -6,7 +6,8 @@ import (
 	"io"
 	"log"
 	"os"
-	"ubvremux/ubv"
+
+	"github.com/asjoyner/ubvremux/ubv"
 )
 
 func DemuxSinglePartitionToNewFiles(ubvFilename string, videoFilename string, videoTrackNum int, audioFilename string, partition *ubv.UbvPartition) {
